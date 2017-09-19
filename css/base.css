@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f1f1f1;
+}
+
+.fl {
+  float: left;
+  margin: 0 0 10px 10px;
+}
+
+.container {
+  width: 940px;
+  background-color: #ff5d5d;
+  margin: 10px auto;
+}
+
+.bg {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  box-shadow: 0 1px 2px 1px rgba(0,0,0,.2);
+  float: left;
+  margin: 0 0 10px 10px;
+}

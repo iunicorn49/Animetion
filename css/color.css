@@ -1,0 +1,79 @@
+.color {
+  background-color: #947a6d;
+}
+
+.color > div {
+  width: 100px;
+  height: 60px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform-origin: left top;
+  transform-style: preserve-3d;
+}
+
+.color-c1 {
+  background-color: #e87a90;
+  animation: color-c1 2s ease-in-out infinite;
+}
+
+.color-c2 {
+  background-color: #f19483;
+  animation: color-c2 2s ease-in-out infinite;
+}
+
+.color-c3 {
+  background-color: #d75455;
+  animation: color-c3 2s ease-in-out infinite;
+}
+
+.color-c4 {
+  background-color: #ffba84;
+  animation: color-c4 2s ease-in-out infinite;
+}
+
+.color-c5 {
+  background-color: #e9a368;
+  animation: color-c5 2s ease-in-out infinite;
+}
+
+.color-c6 {
+  background-color: #b5caa0;
+  animation: color-c6 2s ease-in-out infinite;
+}
+
+@keyframes color-c1 {
+  0%    {transform: rotate(0deg);}
+  50%   {transform: rotate(60deg);}
+  100%  {transform: rotate(360deg);}
+}
+
+@keyframes color-c2 {
+  0%    {transform: rotate(0deg);}
+  50%   {transform: rotate(120deg);}
+  100%  {transform: rotate(360deg);}
+}
+
+@keyframes color-c3 {
+  0%    {transform: rotate(0deg);}
+  50%   {transform: rotate(180deg);}
+  100%  {transform: rotate(360deg);}
+}
+
+@keyframes color-c4 {
+  0%    {transform: rotate(0deg);}
+  50%   {transform: rotate(240deg);}
+  100%  {transform: rotate(360deg);}
+}
+
+@keyframes color-c5 {
+  0%    {transform: rotate(0deg);}
+  50%   {transform: rotate(300deg);}
+  100%  {transform: rotate(360deg);}
+}
+
+@keyframes color-c6 {
+  0%    {transform: rotate(0deg);}
+  50%   {transform: rotate(360deg);}
+  100%  {transform: rotate(360deg);}
+}
